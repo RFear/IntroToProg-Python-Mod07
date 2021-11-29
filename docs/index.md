@@ -52,19 +52,19 @@ for item in data:
 
 ### Program Execution
 The program execution in the PyCharm environment is shown in Figure 1.
-![Program Execution of Pickling - PyCharm](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/pickling_pycharm.png "Program Execution of Pickling - PyCharm")
+![Program Execution of Pickling - PyCharm](docs/images/pickling_pycharm.png "Program Execution of Pickling - PyCharm")
 
 Figure 1: Program Execution of Pickling - PyCharm
 
 The program execution in the PyCharm environment is shown in Figure 2.
-![Program Execution of Pickling - Command Window](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/pickling_cmd.png "Program Execution of Pickling - Command Window")
+![Program Execution of Pickling - Command Window](docs/images/pickling_cmd.png "Program Execution of Pickling - Command Window")
 
 Figure 2: Program Execution of Pickling - Command Window
 
 ### Program Explanation
 First, I import the pickle module.  Next I define a list, dictionary, integer, floating point, and a Boolean then collect all of these items in a list called pickle_items.  I then save this data to a file called “pickle_file.txt”.  The contents of this file are shown in Figure 3, the data is written to the file in binary.  Although humans may not be able to fully understand the content in this file, it is perfectly useable by the computer.  I also print to the screen what has been accomplished.
 
-![Content in pickle_file.txt](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/pickling_file.png "Content in pickle_file.txt")
+![Content in pickle_file.txt](docs/images/pickling_file.png "Content in pickle_file.txt")
 
 Figure 3: Content in *pickle_file.txt*
 
@@ -82,7 +82,7 @@ A YouTube video and two web pages that discuss the topic of pickling in python f
 ## Structured Error Handling
 It is common that when a program is interacting with a user errors will occur.  When errors occur, and are not handled, the program could stop executing and the user is left frustrated that they cannot use your code.  One way to deal with errors is structured error handling.  This is commonly dealt with what is called a “try-exception” block of code.  The logic for this block of code is shown in Figure 4.  Note, there are additional ways to handle errors by including “else” and “finally” blocks of code and Figure 4 describes what happens if these are used.
 
-![Try-Except Code Block Logic](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/strut_error_handling_logic.png "Program Execution of Pickling - Command Window")
+![Try-Except Code Block Logic](docs/images/strut_error_handling_logic.png "Program Execution of Pickling - Command Window")
 Figure 4: Try-Except Code Block Logic
 
 ### Program Example
@@ -141,12 +141,12 @@ finally:
 ```
 ### Program Execution
 The program execution in the PyCharm environment is shown in Figure 5.
-![Program Execution of Structured Error Handling - PyCharm](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/struct_error_hand_pycharm.png "Program Execution of Structured Error Handling - PyCharm")
+![Program Execution of Structured Error Handling - PyCharm](docs/images/struct_error_hand_pycharm.png "Program Execution of Structured Error Handling - PyCharm")
 
 Figure 5: Program Execution of Structured Error Handling - PyCharm
 
 The program execution in the PyCharm environment is shown in Figure 6.
-![Program Execution of Structured Error Handling - Command Window](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/struct_error_hand_cmd.png "Program Execution of Structured Error Handling - Command Window")
+![Program Execution of Structured Error Handling - Command Window](docs/images/struct_error_hand_cmd.png "Program Execution of Structured Error Handling - Command Window")
 
 Figure 6: Program Execution of Structured Error Handling - Command Window
 
@@ -158,7 +158,7 @@ First, I show an example of dividing by zero.  If a program is performing arithm
 Note, with the FileNotFoundError the “else” and “finally” blocks are used.  As Figure 4 indicates, the “else” block executes when no exceptions are raised and the “finally” block will always execute.  I will now create the file “mydata.txt”, notice the change in Figure 7 from Figure 6.  Since the file “mydata.txt” now exist the else block executes.
 
 The program execution in the PyCharm environment is shown in Figure 7.
-![Else/Finally Execution](https://github.com/RFear/IntroToProg-Python-Mod07/blob/main/docs/images/struct_error_hand_cmd2.png "Else/Finally Execution")
+![Else/Finally Execution](docs/images/struct_error_hand_cmd2.png "Else/Finally Execution")
 
 Figure 7: Else/Finally Execution
 
