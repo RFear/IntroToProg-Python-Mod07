@@ -52,7 +52,7 @@ for item in data:
 
 ### Program Execution
 The program execution in the PyCharm environment is shown in Figure 1.  
-![Program Execution of Pickling - PyCharm](rfear.github.io/IntroToProg-Python-Mod07/docs/images/pickling_pycharm.png "Program Execution of Pickling - PyCharm")  
+![Program Execution of Pickling - PyCharm](https://rfear.github.io/IntroToProg-Python-Mod07/docs/images/pickling_pycharm.png "Program Execution of Pickling - PyCharm")  
 Figure 1: Program Execution of Pickling - PyCharm
 
 The program execution in the PyCharm environment is shown in Figure 2.  
